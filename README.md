@@ -1,6 +1,8 @@
 # Ref-free-and-Training-free-Summ-Evaluation
-The source code of our ACL paper "A Training-free and Reference-free Summarization Evaluation Metric via Centrality-weighted Relevance and Self-referenced Redundancy"
+we use source code of the original paper. But their code is unreadable and messy.
+we use formulas in the article and implement them again.
+We start from formula 1 and go forward step by step.
+Unfortunately we try a lot but we couldn't use the codes of given Github(EvalBase)
 
-Our code is based on [SUPERT](https://github.com/danieldeutsch/SUPERT).
 
-The main file of the evaluation metric: `ref_free_metrics/similarity_measurements/my_score_metrics.py`
+our file for the evaluation metric: `ref_free_metrics/similarity_measurements/main.py`
